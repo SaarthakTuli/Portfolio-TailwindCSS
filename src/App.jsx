@@ -1,9 +1,14 @@
 import React from "react";
+import './index.css'
 
 const App = () => {
     return (
         <>
-            <h1>Hello world</h1>
+            <main>
+                <section className="bg-blue-700 h-screen">
+                    <h1>Hello</h1>
+                </section>
+            </main>
         </>
     )
 };
